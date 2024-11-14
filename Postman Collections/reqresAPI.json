@@ -42,7 +42,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"username\": \"Mahir\",\r\n  \"email\": \"123@gmail.com\",\r\n  \"password\": \"123\"\r\n}",
+					"raw": "{\r\n  \"username\": \"George\",\r\n  \"email\": \"george.bluth@reqres.in\",\r\n  \"password\": \"123\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
