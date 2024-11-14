@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "f6db5fe3-1dd1-439d-81b8-56d48d9fceb4",
+		"name": "ReqresAPI TEST (CRUD)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getTheWebsite",
+			"id": "76eb50d8-a284-41c3-965a-f46a405f935f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://reqres.in/"
+			},
+			"response": []
+		},
+		{
+			"name": "getTheUsers",
+			"id": "138be233-0ac3-4d71-b256-482d9f5541db",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{baseUrl}}users"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "034cc190-3e36-4f83-b159-306f8c48d5ef",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "3a4bf845-4afa-4b8c-832b-1aa4a2347252",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://reqres.in/api/",
+			"type": "string"
+		}
+	]
+}
